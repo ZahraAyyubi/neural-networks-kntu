@@ -57,11 +57,10 @@ mlp-architecture-experiments/
 ├── Q2/              ← Gradient descent & Momentum with various activations
 ├── Q3/              ← Comparison: Momentum vs Levenberg vs Adam
 ├── Q4/              ← Flexible Activation Functions (F1, F2)
-- `Report_Q1_Q2.xlsx`: Metrics and training logs for regression & classification
-- `Report_Q3_Q4.xlsx`: Comparative performance of optimizers and blended activation tests
+├── Report_Q1_Q2.xlsx ← Metrics and training logs for regression & classification
+├── Report_Q3_Q4.xlsx ← Comparative performance of optimizers and blended activation tests
+```
  
----
-
 ## ⚠️ Notes
 
 - All experiments are reproducible via `main.py` files in each subfolder
