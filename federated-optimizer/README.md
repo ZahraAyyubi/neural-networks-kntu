@@ -83,8 +83,6 @@ federated-optimizer/
 2) config optimizer and other params then run server 
 3) run each client
  
-
----
 ---
 
 ## 📈 Results Summary
