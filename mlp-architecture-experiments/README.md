@@ -1,4 +1,4 @@
-# MLP Architecture Experiments – Neural Networks Course (Fall 2023)
+# MLP Architecture Experiments
 
 This repository includes complete Python implementations and analysis of multilayer perceptron (MLP) experiments conducted as part of the **Neural Networks graduate course** at *K. N. Toosi University of Technology*. The codebase is modular, organized by task, and structured for reuse and evaluation on a variety of datasets and activation functions.
 
