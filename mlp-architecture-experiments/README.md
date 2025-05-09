@@ -19,17 +19,6 @@ This repository includes complete Python implementations and analysis of multila
   Custom blended functions using tunable coefficients across layers (F1 & F2)
 
 ---
-
-## 🧠 Codebase Design
-
-The project is split into `Q1` to `Q4` directories, each containing:
-- A `main.py` for experiment execution
-- `utils/` for reusable components like activation functions, weight init
-- `models/` for different network definitions
-- `plots/` and `figures/` for visualization outputs
-- `report .xlsx` files for numeric summaries and evaluation
-
----
  
 ## 🧪 Key Experiments and Findings
 
@@ -67,14 +56,10 @@ mlp-architecture-experiments/
 ├── Q1/              ← Levenberg-Marquardt regression
 ├── Q2/              ← Gradient descent & Momentum with various activations
 ├── Q3/              ← Comparison: Momentum vs Levenberg vs Adam
-├── Q4/              ← Flexible Activation Functions (F1, F2)  
-```
-
-## 📁 Report Files
-
+├── Q4/              ← Flexible Activation Functions (F1, F2)
 - `Report_Q1_Q2.xlsx`: Metrics and training logs for regression & classification
 - `Report_Q3_Q4.xlsx`: Comparative performance of optimizers and blended activation tests
-
+ 
 ---
 
 ## ⚠️ Notes
