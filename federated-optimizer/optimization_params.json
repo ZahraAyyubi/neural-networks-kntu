@@ -1,0 +1,744 @@
+{
+    "sgd": [
+        {
+            "description": "lr:0.001 decay:0.0 momentum:0.0",
+            "learning_rate": 0.001,
+            "decay": 0.0
+        },
+        {
+            "description": "lr:0.01 decay:0.0 momentum:0.0",
+            "learning_rate": 0.01,
+            "decay": 0.0
+        },
+        {
+            "description": "lr:1.0 decay:0.0 momentum:0.0",
+            "learning_rate": 0.1,
+            "decay": 0.0
+        },
+        {
+            "description": "lr:0.001 decay:0.001 momentum:0.0",
+            "learning_rate": 0.001,
+            "decay": 0.001
+        },
+        {
+            "description": "lr:0.01 decay:0.01 momentum:0.0",
+            "learning_rate": 0.01,
+            "decay": 0.01
+        },
+        {
+            "description": "lr:1.0 decay:1.0 momentum:0.0",
+            "learning_rate": 0.1,
+            "decay": 1.0
+        }
+    ],
+    "nesterov_momentum": [
+        {
+            "description": "lr:0.001 decay:0.0 momentum:0.5",
+            "learning_rate": 0.001,
+            "decay": 0.0,
+            "momentum": 0.5
+        },
+        {
+            "description": "lr:0.01 decay:0.0 momentum:0.5",
+            "learning_rate": 0.01,
+            "decay": 0.0,
+            "momentum": 0.5
+        },
+        {
+            "description": "lr:1.0 decay:0.0 momentum:0.5",
+            "learning_rate": 0.1,
+            "decay": 0.0,
+            "momentum": 0.5
+        },
+        {
+            "description": "lr:0.001 decay:0.001 momentum:0.5",
+            "learning_rate": 0.001,
+            "decay": 0.001,
+            "momentum": 0.5
+        },
+        {
+            "description": "lr:0.01 decay:0.01 momentum:0.5",
+            "learning_rate": 0.01,
+            "decay": 0.01,
+            "momentum": 0.5
+        },
+        {
+            "description": "lr:1.0 decay:1.0 momentum:0.5",
+            "learning_rate": 0.1,
+            "decay": 1.0,
+            "momentum": 0.5
+        },
+        {
+            "description": "lr:0.001 decay:0.0 momentum:0.9",
+            "learning_rate": 0.001,
+            "decay": 0.0,
+            "momentum": 0.9
+        },
+        {
+            "description": "lr:0.01 decay:0.0 momentum:0.9",
+            "learning_rate": 0.01,
+            "decay": 0.0,
+            "momentum": 0.9
+        },
+        {
+            "description": "lr:1.0 decay:0.0 momentum:0.9",
+            "learning_rate": 0.1,
+            "decay": 0.0,
+            "momentum": 0.9
+        },
+        {
+            "description": "lr:0.001 decay:0.001 momentum:0.9",
+            "learning_rate": 0.001,
+            "decay": 0.001,
+            "momentum": 0.9
+        },
+        {
+            "description": "lr:0.01 decay:0.01 momentum:0.9",
+            "learning_rate": 0.01,
+            "decay": 0.01,
+            "momentum": 0.9
+        },
+        {
+            "description": "lr:1.0 decay:1.0 momentum:0.9",
+            "learning_rate": 0.1,
+            "decay": 1.0,
+            "momentum": 0.9
+        },
+        {
+            "description": "lr:0.001 decay:0.0 momentum:0.95",
+            "learning_rate": 0.001,
+            "decay": 0.0,
+            "momentum": 0.95
+        },
+        {
+            "description": "lr:0.01 decay:0.0 momentum:0.95",
+            "learning_rate": 0.01,
+            "decay": 0.0,
+            "momentum": 0.95
+        },
+        {
+            "description": "lr:1.0 decay:0.0 momentum:0.95",
+            "learning_rate": 0.1,
+            "decay": 0.0,
+            "momentum": 0.95
+        },
+        {
+            "description": "lr:0.001 decay:0.001 momentum:0.95",
+            "learning_rate": 0.001,
+            "decay": 0.001,
+            "momentum": 0.95
+        },
+        {
+            "description": "lr:0.01 decay:0.01 momentum:0.95",
+            "learning_rate": 0.01,
+            "decay": 0.01,
+            "momentum": 0.95
+        },
+        {
+            "description": "lr:1.0 decay:1.0 momentum:0.95",
+            "learning_rate": 0.1,
+            "decay": 1.0,
+            "momentum": 0.95
+        }
+    ],
+    "adagrad": [
+        {
+            "description": "lr:0.001 decay:0.0 epsilon:le-08",
+            "learning_rate": 0.001,
+            "decay": 0.0,
+            "epsilon": 0.00000001
+        },
+        {
+            "description": "lr:0.01 decay:0.0 epsilon:le-08",
+            "learning_rate": 0.01,
+            "decay": 0.0,
+            "epsilon": 0.00000001
+        },
+        {
+            "description": "lr:1.0 decay:0.0 epsilon:le-08",
+            "learning_rate": 0.1,
+            "decay": 0.0,
+            "epsilon": 0.00000001
+        },
+        {
+            "description": "lr:0.001 decay:0.001 epsilon:le-08",
+            "learning_rate": 0.001,
+            "decay": 0.001,
+            "epsilon": 0.00000001
+        },
+        {
+            "description": "lr:0.01 decay:0.01 epsilon:le-08",
+            "learning_rate": 0.01,
+            "decay": 0.01,
+            "epsilon": 0.00000001
+        },
+        {
+            "description": "lr:1.0 decay:1.0 epsilon:le-08",
+            "learning_rate": 0.1,
+            "decay": 1.0,
+            "epsilon": 0.00000001
+        }
+    ],
+    "rmsprop": [
+        {
+            "description": "lr:0.001 decay:0.0 epsilon:le-08 rho:0.5",
+            "learning_rate": 0.001,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "rho": 0.5
+        },
+        {
+            "description": "lr:0.01 decay:0.0 epsilon:le-08 rho:0.5",
+            "learning_rate": 0.01,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "rho": 0.5
+        },
+        {
+            "description": "lr:1.0 decay:0.0 epsilon:le-08 rho:0.5",
+            "learning_rate": 0.1,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "rho": 0.5
+        },
+        {
+            "description": "lr:0.001 decay:0.001 epsilon:le-08 rho:0.5",
+            "learning_rate": 0.001,
+            "decay": 0.001,
+            "epsilon": 0.00000001,
+            "rho": 0.5
+        },
+        {
+            "description": "lr:0.01 decay:0.01 epsilon:le-08 rho:0.5",
+            "learning_rate": 0.01,
+            "decay": 0.01,
+            "epsilon": 0.00000001,
+            "rho": 0.5
+        },
+        {
+            "description": "lr:1.0 decay:1.0 epsilon:le-08 rho:0.5",
+            "learning_rate": 0.1,
+            "decay": 1.0,
+            "epsilon": 0.00000001,
+            "rho": 0.5
+        },
+        {
+            "description": "lr:0.001 decay:0.0 epsilon:le-08 rho:0.9",
+            "learning_rate": 0.001,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "rho": 0.9
+        },
+        {
+            "description": "lr:0.01 decay:0.0 epsilon:le-08 rho:0.9",
+            "learning_rate": 0.01,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "rho": 0.9
+        },
+        {
+            "description": "lr:1.0 decay:0.0 epsilon:le-08 rho:0.9",
+            "learning_rate": 0.1,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "rho": 0.9
+        },
+        {
+            "description": "lr:0.001 decay:0.001 epsilon:le-08 rho:0.9",
+            "learning_rate": 0.001,
+            "decay": 0.001,
+            "epsilon": 0.00000001,
+            "rho": 0.9
+        },
+        {
+            "description": "lr:0.01 decay:0.01 epsilon:le-08 rho:0.9",
+            "learning_rate": 0.01,
+            "decay": 0.01,
+            "epsilon": 0.00000001,
+            "rho": 0.9
+        },
+        {
+            "description": "lr:1.0 decay:1.0 epsilon:le-08 rho:0.9",
+            "learning_rate": 0.1,
+            "decay": 1.0,
+            "epsilon": 0.00000001,
+            "rho": 0.9
+        },
+        {
+            "description": "lr:0.001 decay:0.0 epsilon:le-08 rho:0.95",
+            "learning_rate": 0.001,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "rho": 0.95
+        },
+        {
+            "description": "lr:0.01 decay:0.0 epsilon:le-08 rho:0.95",
+            "learning_rate": 0.01,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "rho": 0.95
+        },
+        {
+            "description": "lr:1.0 decay:0.0 epsilon:le-08 rho:0.95",
+            "learning_rate": 0.1,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "rho": 0.95
+        },
+        {
+            "description": "lr:0.001 decay:0.001 epsilon:le-08 rho:0.95",
+            "learning_rate": 0.001,
+            "decay": 0.001,
+            "epsilon": 0.00000001,
+            "rho": 0.95
+        },
+        {
+            "description": "lr:0.01 decay:0.01 epsilon:le-08 rho:0.95",
+            "learning_rate": 0.01,
+            "decay": 0.01,
+            "epsilon": 0.00000001,
+            "rho": 0.95
+        },
+        {
+            "description": "lr:1.0 decay:1.0 epsilon:le-08 rho:0.95",
+            "learning_rate": 0.1,
+            "decay": 1.0,
+            "epsilon": 0.00000001,
+            "rho": 0.95
+        }
+    ],
+    "adam": [
+        {
+            "description": "lr:0.001 decay:0.0 epsilon:le-08 betal:0.5 beta2:0.5",
+            "learning_rate": 0.001,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:0.01 decay:0.0 epsilon:le-08 betal:0.5 beta2:0.5",
+            "learning_rate": 0.01,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:1.0 decay:0.0 epsilon:le-08 betal:0.5 beta2:0.5",
+            "learning_rate": 0.1,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:0.001 decay:0.001 epsilon:le-08 betal:0.5 beta2:0.5",
+            "learning_rate": 0.001,
+            "decay": 0.001,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:0.01 decay:0.01 epsilon:le-08 betal:0.5 beta2:0.5",
+            "learning_rate": 0.01,
+            "decay": 0.01,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:1.0 decay:1.0 epsilon:le-08 betal:0.5 beta2:0.5",
+            "learning_rate": 0.1,
+            "decay": 1.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:0.001 decay:0.0 epsilon:le-08 betal:0.5 beta2:0.9",
+            "learning_rate": 0.001,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:0.01 decay:0.0 epsilon:le-08 betal:0.5 beta2:0.9",
+            "learning_rate": 0.01,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:1.0 decay:0.0 epsilon:le-08 beta1:0.5 beta2:0.9",
+            "learning_rate": 0.1,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:0.001 decay:0.001 epsilon:le-08 betal:0.5 beta2:0.9",
+            "learning_rate": 0.001,
+            "decay": 0.001,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:0.01 decay:0.01 epsilon:le-08 betal:0.5 beta2:0.9",
+            "learning_rate": 0.01,
+            "decay": 0.01,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:1.0 decay:1.0 epsilon:le-08 beta1:0.5 beta2:0.9",
+            "learning_rate": 0.1,
+            "decay": 1.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:0.001 decay:0.0 epsilon:le-08 betal:0.5 beta2:0.95",
+            "learning_rate": 0.001,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.95
+        },
+        {
+            "description": "lr:0.01 decay:0.0 epsilon:le-08 betal:0.5 beta2:0.95",
+            "learning_rate": 0.01,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.95
+        },
+        {
+            "description": "lr:1.0 decay:0.0 epsilon:le-08 betal:0.5 beta2:0.95",
+            "learning_rate": 0.1,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.95
+        },
+        {
+            "description": "lr:0.001 decay:0.001 epsilon:le-08 beta1:0.5 beta2:0.95",
+            "learning_rate": 0.001,
+            "decay": 0.001,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.95
+        },
+        {
+            "description": "lr:0.01 decay:0.01 epsilon:le-08 betal:0.5 beta2:0.95",
+            "learning_rate": 0.01,
+            "decay": 0.01,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.95
+        },
+        {
+            "description": "lr:1.0 decay:1.0 epsilon:le-08 betal:0.5 beta2:0.95",
+            "learning_rate": 0.1,
+            "decay": 1.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.5,
+            "beta2": 0.95
+        },
+        {
+            "description": "lr:0.001 decay:0.0 epsilon:1e-08 beta1:0.9 beta2:0.5",
+            "learning_rate": 0.001,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:0.01 decay:0.0 epsilon:1e-08 beta1:0.9 beta2:0.5",
+            "learning_rate": 0.01,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:1.0 decay:0.0 epsilon:1e-08 beta1:0.9 beta2:0.5",
+            "learning_rate": 0.1,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:0.001 decay:0.001 epsilon:1e-08 beta1:0.9 beta2:0.5",
+            "learning_rate": 0.001,
+            "decay": 0.001,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:0.01 decay:0.01 epsilon:1e-08 beta1:0.9 beta2:0.5",
+            "learning_rate": 0.01,
+            "decay": 0.01,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:1.0 decay:1.0 epsilon:1e-08 beta1:0.9 beta2:0.5",
+            "learning_rate": 0.1,
+            "decay": 1.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:0.001 decay:0.0 epsilon:1e-08 beta1:0.9 beta2:0.9",
+            "learning_rate": 0.001,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:0.01 decay:0.0 epsilon:1e-08 beta1:0.9 beta2:0.9",
+            "learning_rate": 0.01,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:1.0 decay:0.0 epsilon:1e-08 beta1:0.9 beta2:0.9",
+            "learning_rate": 0.1,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:0.001 decay:0.001 epsilon:1e-08 beta1:0.9 beta2:0.9",
+            "learning_rate": 0.001,
+            "decay": 0.001,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:0.01 decay:0.01 epsilon:1e-08 beta1:0.9 beta2:0.9",
+            "learning_rate": 0.01,
+            "decay": 0.01,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:1.0 decay:1.0 epsilon:1e-08 beta1:0.9 beta2:0.9",
+            "learning_rate": 0.1,
+            "decay": 1.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:0.001 decay:0.0 epsilon:1e-08 beta1:0.9 beta2:0.95",
+            "learning_rate": 0.001,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.95
+        },
+        {
+            "description": "lr:0.01 decay:0.0 epsilon:1e-08 beta1:0.9 beta2:0.95",
+            "learning_rate": 0.01,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.95
+        },
+        {
+            "description": "lr:1.0 decay:0.0 epsilon:1e-08 beta1:0.9 beta2:0.95",
+            "learning_rate": 0.1,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.95
+        },
+        {
+            "description": "lr:0.001 decay:0.001 epsilon:1e-08 beta1:0.9 beta2:0.95",
+            "learning_rate": 0.001,
+            "decay": 0.001,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.95
+        },
+        {
+            "description": "lr:0.01 decay:0.01 epsilon:1e-08 beta1:0.9 beta2:0.95",
+            "learning_rate": 0.01,
+            "decay": 0.01,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.95
+        },
+        {
+            "description": "lr:1.0 decay:1.0 epsilon:1e-08 beta1:0.9 beta2:0.95",
+            "learning_rate": 0.1,
+            "decay": 1.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.9,
+            "beta2": 0.95
+        },
+        {
+            "description": "lr:0.001 decay:0.0 epsilon:le-08 betal:0.95 beta2:0.5",
+            "learning_rate": 0.001,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:0.01 decay:0.0 epsilon:le-08 betal:0.95 beta2:0.5",
+            "learning_rate": 0.01,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:1.0 decay:0.0 epsilon:le-08 beta1:0.95 beta2:0.5",
+            "learning_rate": 0.1,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:0.001 decay:0.001 epsilon:le-08 beta1:0.95 beta2:0.5",
+            "learning_rate": 0.001,
+            "decay": 0.001,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:0.01 decay:0.01 epsilon:le-08 betal:0.95 beta2:0.5",
+            "learning_rate": 0.01,
+            "decay": 0.01,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:1.0 decay:1.0 epsilon:le-08 beta1:0.95 beta2:0.5",
+            "learning_rate": 0.1,
+            "decay": 1.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.5
+        },
+        {
+            "description": "lr:0.001 decay:0.0 epsilon:le-08 beta1:0.95 beta2:0.9",
+            "learning_rate": 0.001,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:0.01 decay:0.0 epsilon:le-08 beta1:0.95 beta2:0.9",
+            "learning_rate": 0.01,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:1.0 decay:0.0 epsilon:le-08 betel:0.95 beta2:0.9",
+            "learning_rate": 0.1,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:0.001 decay:0.001 epsilon:le-08 betel:0.95 beta2:0.9",
+            "learning_rate": 0.001,
+            "decay": 0.001,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:0.01 decay:0.01 epsilon:le-08 betel:0.95 beta2:0.9",
+            "learning_rate": 0.01,
+            "decay": 0.01,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:1.0 decay:1.0 epsilon:le-08 betel:0.95 beta2:0.9",
+            "learning_rate": 0.1,
+            "decay": 1.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.9
+        },
+        {
+            "description": "lr:0.001 decay:0.0 epsilon:le-08 betel:0.95 beta2:0.95",
+            "learning_rate": 0.001,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.95
+        },
+        {
+            "description": "lr:0.01 decay:0.0 epsilon:le-08 betel:0.95 beta2:0.95",
+            "learning_rate": 0.01,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.95
+        },
+        {
+            "description": "lr:1.0 decay:0.0 epsilon:le-08 betel:0.95 beta2:0.95",
+            "learning_rate": 0.1,
+            "decay": 0.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.95
+        },
+        {
+            "description": "lr:0.001 decay:0.001 epsilon:le-08 betel:0.95 beta2:0.95",
+            "learning_rate": 0.001,
+            "decay": 0.001,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.95
+        },
+        {
+            "description": "lr:0.01 decay:0.01 epsilon:le-08 betel:0.95 beta2:0.95",
+            "learning_rate": 0.01,
+            "decay": 0.01,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.95
+        },
+        {
+            "description": "lr:1.0 decay:1.0 epsilon:le-08 betel:0.95 beta2:0.95",
+            "learning_rate": 0.1,
+            "decay": 1.0,
+            "epsilon": 0.00000001,
+            "beta1": 0.95,
+            "beta2": 0.95
+        }
+    ]
+}
