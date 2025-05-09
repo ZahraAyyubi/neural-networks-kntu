@@ -26,7 +26,7 @@ Design and comparison of two GMDH-based neural models:
 - Tested on time-series regression problems
 - Focus on self-organizing architecture and interpretability
 
-### 📁 `federated-optimizer-benchmark/`
+### 📁 `federated-optimizer/`
 Final course project reproducing results from this paper:  
 **"Optimization in Federated Learning"** (Felbab et al., 2019)
 - Federated SGD, Momentum, AdaGrad, RMSProp, and Adam
