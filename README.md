@@ -1,4 +1,4 @@
-# Neural Networks Course Projects – KNTU(Fall 2023)
+# Neural Networks Course Projects – KNTU (Fall 2023)
 
 This repository includes a set of practical assignments and a final project completed for the **Neural Networks course** at *K. N. Toosi University of Technology*, held in Fall 2023.
 
@@ -25,6 +25,12 @@ Design and comparison of two GMDH-based neural models:
 - GMDH-RBF and GMDH-RoughMLP hybrid
 - Tested on time-series regression problems
 - Focus on self-organizing architecture and interpretability
+
+### 📁 `federated-learning/`
+Mini-project simulating federated learning on MNIST using 4 clients:
+- Clients train local models with momentum optimizer
+- Server aggregates and redistributes model weights
+- Implemented with Python socket communication and parallel processes
 
 ### 📁 `federated-optimizer/`
 Final course project reproducing results from this paper:  
